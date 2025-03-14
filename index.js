@@ -31,3 +31,9 @@ newDiv.textContent = "I'm new here";
 document.body.insertBefore(newDiv,para);
 //remove the newly created element 
 newDiv.remove();
+
+//traversing the dom
+console.log(heading.parentElement)
+console.log(heading.children)
+console.log(heading.nextElementSibling)
+console.log(button.previousElementSibling)
